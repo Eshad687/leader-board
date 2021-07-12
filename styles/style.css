@@ -173,6 +173,9 @@ padding-left: 10px;
     .top-players,.blogs,.courses{
        
         grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding: 0;
+        
     }
     .player,.blog,.course{
         flex-direction: column;
@@ -189,7 +192,7 @@ padding-left: 10px;
 @media only screen and (min-width:688px) and (max-width:992px) {
 
     .container{
-        width: 100%;
+        width: 85%;
     }
 
 .section-title{
