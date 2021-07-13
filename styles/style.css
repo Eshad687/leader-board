@@ -161,11 +161,20 @@ padding-left: 10px;
 /* media queries */
 /* mobile device */
 @media only screen and (max-width:688px) {
+    
+    
     .navbar{
+        
+        
         justify-content: center;
     }
     .container{
         width:100%;
+        padding-left: 0;
+        padding-right: 0;
+        
+        
+      
     }
     .section-title{
         text-align: center;
@@ -190,9 +199,14 @@ padding-left: 10px;
 }
 /* medium devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
+    .navbar{
+       justify-content: center;
+    }
 
     .container{
-        width: 85%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
 .section-title{
